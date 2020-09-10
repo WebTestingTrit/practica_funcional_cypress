@@ -1,19 +1,22 @@
-# Práctica pruebas e2e Puppeteer
+# Práctica pruebas funcionales con Cypress
 
 ## Definición
 
-Probar el funcionamiento de una web usando _Puppeteer_.
+Probar el funcionamiento de una web usando _Cypress_.
 Preferiblemente usa una tuya que tenga una parte accesible al público. 
-Si no puedes, o no quieres, te propongo que uses https://www.timeanddate.com/
+Si no puedes o quieres, te propongo que uses https://www.timeanddate.com/
 
 ### Requerimientos
 
-Comprobar respuesta correctra a una url
-Por ejemplo https://www.timeanddate.com/worldclock/tu-pais/tu-ciudad
+Probar al menos 
 
-Sacar instantanea del resultado
+- una interacción de navegación del usuario
+- una interacción de tecleo
+- una interacción de click
 
-Comprobarlo emulando un dispositivo movil de tu elección
+Crear algún comendo custom
+
+Desacoplar el API mediante fixtures si es posible
 
 #### Recomendaciones
 
