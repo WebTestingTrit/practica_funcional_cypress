@@ -1,6 +1,6 @@
 {
   "name": "web-testing_cypress_labs",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Ejemplos con cypress",
   "author": {
     "name": "Alberto Basalo",
@@ -17,7 +17,9 @@
     "url": "https://github.com/WebTestingTrit/practica_funcional_cypress/issues"
   },
   "scripts": {
-    "deploy": "standard-version && git push --follow-tags origin master",
+    "format:fix": "npm run format -- --write",
+    "predeploy": "standard-version ",
+    "deploy": "git push --follow-tags origin main",
     "updates": "ncu -u"
   },
   "devDependencies": {
