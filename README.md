@@ -14,7 +14,7 @@ Probar al menos
 - una interacción de tecleo
 - una interacción de click
 
-Crear algún comendo custom
+Crear algún comando _custom_
 
 Desacoplar el API mediante fixtures si es posible
 
